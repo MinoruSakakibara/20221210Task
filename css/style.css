@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.slide {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 800px;
+    background: black;
+}
+
+.thumb {
+    margin: 0 auto;
+    width: 800px;
+}
+
+li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+ul {
+    display: flex;
+    padding: 0 0;
+}
+
+img {
+    max-width: 100%;
+    cursor:pointer;
+}
+
+.toolbar {
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav {
+    display: inline-block;
+}
+
+#prev {
+    float: left;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+
+#prev::after {
+    content: '<';
+    color: #fff;
+}
+
+#next {
+    float: left;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+}
+
+#next::after {
+    content: '>';
+    color: #fff;
+}
+
+#page {
+    float: left;
+    height: 32px;
+    color: #fff;
+    user-select: none;
+}
+
+#main_image {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 64px;
+}
+
+p {
+    text-align: center;
+    font-family: "Kokoro";
+}
+
+body {
+    background-color: burlywood;
+}
